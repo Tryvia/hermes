@@ -1,4 +1,12 @@
 {
+  "name": "hermes",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm --prefix aegisdahs-main run dev",
+    "build": "npm --prefix aegisdahs-main run build",
+    "preview": "npm --prefix aegisdahs-main run preview"
+  },
   "devDependencies": {
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
